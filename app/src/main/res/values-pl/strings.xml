@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="games_button">GRY</string>
+    <string name="expansions_button">DODATKI</string>
+    <string name="reset_button">WYCZYŚĆ DANE</string>
+    <string name="sync_button">SYNCHRONIZUJ</string>
+    <string name="confirm_reset">Czy jesteś pewien? Ta operacja usunie wszystkie dane.</string>
+    <string name="yes">tak</string>
+    <string name="no">nie</string>
+    <string name="column_title">tytuł</string>
+    <string name="column_pos">ranking</string>
+    <string name="column_year">" rok  "</string>
+    <string name="column_image">" "</string>
+    <string name="camera_button">ZRÓB ZDJĘCIE</string>
+    <string name="gallery_button">DODAJ OBRAZ</string>
+    <string name="last_sync">ostatnia synchronizacja:</string>
+    <string name="number_games">liczba gier:</string>
+    <string name="number_expansions">liczba dodatków:</string>
+    <string name="username">nazwa użytkownika:</string>
+    <string name="never">nigdy</string>
+    <string name="sync_in_progress">Trwa synchronizacja...</string>
+    <string name="confirm_sync">Czy jesteś pewien? Ostatnio zsynchronizowano:</string>
+    <string name="invalid_username">Nieprawidłowa nazwa użytkownika.</string>
+    <string name="insert_username">Podaj nazwę użytkownika z serwisu boardgamesgeek:</string>
+    <string name="ranking">ranking</string>
+    <string name="id">id</string>
+    <string name="year">rok</string>
+    <string name="delete_button">USUŃ OBRAZ</string>
+    <string name="confirm_delete">Czy chcesz usunąć ten obraz?</string>
+    <string name="delete_switch">Usuń stare gry i dodatki:</string>
+    <string name="rate_limit_exceeded">Przekroczono limit połączeń.</string>
+</resources>

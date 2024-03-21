@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">BoardGameCollector</string>
+    <string name="images_dir" translatable="false">.</string>
+    <string name="authorities" translatable="false">edu.inf151816.fileprovider</string>
+    <string name="games_button">GAMES</string>
+    <string name="expansions_button">EXPANSIONS</string>
+    <string name="reset_button">CLEAR DATA</string>
+    <string name="sync_button">SYNCHRONIZE</string>
+    <string name="confirm_reset">Are you sure? This operation will wipe out all data.</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="column_title">title</string>
+    <string name="column_pos">rank</string>
+    <string name="column_year">" year "</string>
+    <string name="column_image">" "</string>
+    <string name="camera_button">CAMERA</string>
+    <string name="gallery_button">GALLERY</string>
+    <string name="last_sync">last sync:</string>
+    <string name="number_games">number of games:</string>
+    <string name="number_expansions">number of expansions:</string>
+    <string name="username">username:</string>
+    <string name="never">never</string>
+    <string name="confirm_sync">Are you sure? Last sync was performed:</string>
+    <string name="sync_in_progress">Sync in progress...</string>
+    <string name="invalid_username">Invalid username.</string>
+    <string name="insert_username">Insert boardgamesgeek username:</string>
+    <string name="ranking">ranking</string>
+    <string name="id">id</string>
+    <string name="year">year</string>
+    <string name="delete_button">DELETE IMAGE</string>
+    <string name="confirm_delete">Delete this image?</string>
+    <string name="delete_switch">Delete old games and expansions:</string>
+    <string name="rate_limit_exceeded">Rate limit exceeded.</string>
+</resources>

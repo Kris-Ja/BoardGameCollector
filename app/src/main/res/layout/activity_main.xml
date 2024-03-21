@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numGamesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="games"
+        app:layout_constraintBottom_toTopOf="@+id/numExpansionsView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameView" />
+
+    <TextView
+        android:id="@+id/numExpansionsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="expansions"
+        app:layout_constraintBottom_toTopOf="@+id/lastSyncView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numGamesView" />
+
+    <TextView
+        android:id="@+id/lastSyncView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lastsync"
+        app:layout_constraintBottom_toTopOf="@+id/gamesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numExpansionsView" />
+
+    <Button
+        android:id="@+id/gamesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gamesClick"
+        android:text="@string/games_button"
+        app:layout_constraintBottom_toTopOf="@+id/expansionsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastSyncView" />
+
+    <Button
+        android:id="@+id/expansionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="expansionsClick"
+        android:text="@string/expansions_button"
+        app:layout_constraintBottom_toTopOf="@+id/syncButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamesButton" />
+
+    z
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:onClick="resetClick"
+        android:text="@string/reset_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/syncButton" />
+
+    <TextView
+        android:id="@+id/usernameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="username"
+        app:layout_constraintBottom_toTopOf="@+id/numGamesView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/syncButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="syncClick"
+        android:text="@string/sync_button"
+        app:layout_constraintBottom_toTopOf="@+id/resetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expansionsButton" />
+
+    <CheckBox
+        android:id="@+id/switch1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:gravity="start"
+        android:layoutDirection="rtl"
+        android:text="@string/delete_switch"
+        app:layout_constraintBottom_toBottomOf="@+id/syncButton"
+        app:layout_constraintLeft_toRightOf="@+id/syncButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/syncButton"
+        tools:checked="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
